@@ -78,10 +78,10 @@ p {
     margin-right: 10px;
 }
 
-.icons:hover {
+/* .icons:hover {
     opacity: 0.6;
 
-}
+} */
 .post-desc {
     display: flex; 
     gap: 5px; 
