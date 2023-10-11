@@ -68,21 +68,22 @@ posts.forEach((post) => {
 
 document.querySelectorAll('.heart-icon').forEach((heartIcon, index) => {
     let isLiked = false;
-    heartIcon.classList.remove('heart-icon');
+
 
     heartIcon.addEventListener('click', () => {
         if(isLiked) {
             const likesElement = document.querySelectorAll('.post-likes')[index];
             const currentLikes = parseInt(likesElement.textContent, 10);
-    
+            heartIcon.src = "images/icon-heart.png";
             likesElement.textContent = `${currentLikes - 1} likes`;
-            heartIcon.classList.remove('heart-icon');
+            
         } else {
             const likesElement = document.querySelectorAll('.post-likes')[index];
             const currentLikes = parseInt(likesElement.textContent, 10);
-    
+            heartIcon.src = "images/red-heart.png";
+        
             likesElement.textContent = `${currentLikes + 1} likes`;
-            heartIcon.classList.add('heart-icon');
+   
         }
 
         isLiked = !isLiked;

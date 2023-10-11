@@ -78,10 +78,6 @@ p {
     margin-right: 10px;
 }
 
-/* .icons:hover {
-    opacity: 0.6;
-
-} */
 .post-desc {
     display: flex; 
     gap: 5px; 
@@ -89,8 +85,4 @@ p {
 
 .post-likes {
     margin: 6px 0 15px 0; 
-}
-
-.heart-icon {
-    opacity: 0.3;
 }
