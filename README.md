@@ -13,4 +13,4 @@ This project followed a Figma file to use CSS and Javascript to recreate an Inst
 
 Learned about container sizing, positioning, and displaying multiple objects on the page at once. 
 
-## Deployed @: 
+## Deployed @: https://shazseatter.github.io/oldagram_project/ 
